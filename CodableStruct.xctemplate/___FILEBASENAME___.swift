@@ -22,10 +22,16 @@ struct ___VARIABLE_structName___: Codable {
     }
      */
     
-    /* para implementar esse método é preciso extender o protocol Equatable
+    /* para implementar esse método é preciso estender o protocol Equatable
     static func == (lhs: ___VARIABLE_structName___, rhs: ___VARIABLE_structName___) -> Bool {
     
         return true
     }
      */
+    
+    /* para implementar essa computed property é preciso estender o protocol CustomStringConvertible
+    var description: String {
+        return "o que quiser printar aqui"
+    }
+    */
 }
